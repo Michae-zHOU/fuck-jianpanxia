@@ -1,0 +1,25 @@
+# Ignore Cargo-specific files
+/target/
+**/*.rs.bk
+
+# Ignore test, development environment, and IDE files
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*.vscode/
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.tmp
+*.old
